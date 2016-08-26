@@ -1,0 +1,43 @@
+/* Inserta tu CSS aqui */
+
+p {
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 10px;
+	text-align: center;
+	
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+h5 {
+	text-align: center;
+}
+.box {
+width: 230px;
+height: 260px;
+float: left;
+box-shadow: 0 2px 2px 0;
+text-align: center;
+}
+.box:hover {
+width: 240px;
+height: 270px;
+float: left;
+box-shadow: 0 2px 2px 0;
+text-align: center;
+color:blue;
+-webkit-transition: width 1s;
+transition: width 1s;
+}
+
+span {
+	color: purple;
+	font-size: 90px;
+	}
+	span:hover {
+	color: blue;
+	font-size: 100px;
+	-webkit-transition: width 1s;
+    transition: width 1s;
+}
